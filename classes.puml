@@ -4,6 +4,10 @@ left to right direction
 
 note "<b><u>TO DO</u></b>: Hierarquizar tipos de alertas" as N1
 
+class GerenciadorAlertas {
+  + Alerta[] alertas
+}
+
 class Alerta {
   - number timerHandler
   + Date horario
