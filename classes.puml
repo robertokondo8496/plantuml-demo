@@ -2,7 +2,8 @@
 
 top to bottom direction
 
-class Gerenciador {
+class GerenciadorAlertas {
+  + Alerta[] alertas
 }
 
 class Alerta <<abstract>> {
